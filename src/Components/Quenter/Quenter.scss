@@ -1,0 +1,71 @@
+#quenter {
+	.choose-amount {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 19px;
+		line-height: 28px;
+		color: #000000;
+	}
+	.circle {
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		background: #ffffff;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+		color: #565656;
+		cursor: pointer;
+		border: 0;
+	}
+	.number {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 45px;
+		color: #000000;
+		margin-bottom: 0;
+	}
+	.euro {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 22px;
+		color: #000000;
+	}
+
+	.ant-btn:active {
+		border: 0;
+		outline: none;
+	}
+
+	.ant-radio-group {
+		height: 50px;
+	}
+	.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+		border: 2px solid #5b5c5d;
+		color: #5b5c5d;
+	}
+	.ant-radio-button-wrapper {
+		text-align: center;
+		color: #79848d;
+		font-weight: 600;
+		font-size: 20px;
+		background: #fff;
+		border: 2px solid #edf2f6;
+		height: 100%;
+		// width: 185px;
+		padding: 7px 50px;
+		margin-right: 15px;
+		border-radius: 8px;
+	}
+	.ant-radio-button-wrapper:not(:first-child)::before {
+		width: 0px;
+	}
+}

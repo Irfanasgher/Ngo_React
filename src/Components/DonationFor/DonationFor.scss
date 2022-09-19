@@ -1,0 +1,29 @@
+#donationFor {
+	.selection {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 20px;
+		color: #565656;
+	}
+	.project-title {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 20px;
+		color: #565656;
+
+		width: 300px;
+	}
+	.monthly {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 20px;
+		text-decoration: underline;
+		color: #565656;
+	}
+}

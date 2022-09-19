@@ -1,0 +1,79 @@
+#payment {
+  .choose-amount {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .ant-radio-group {
+    height: 90px;
+  }
+  .ant-radio-group-solid
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    border: 2px solid #5b5c5d;
+    color: #5b5c5d;
+  }
+  .ant-radio-button-wrapper {
+    text-align: center;
+    color: #79848d;
+    font-weight: 600;
+    font-size: 20px;
+    background: #fff;
+    border: 2px solid #edf2f6;
+    height: 100%;
+    width: 195px;
+    // padding: 7px 50px;
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+  .ant-radio-button-wrapper:not(:first-child)::before {
+    width: 0px;
+  }
+  .credit-card {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    // color: #5b5c5d;
+    margin-bottom: 0;
+  }
+  .form-label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .form-control {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #687c97;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0.375rem 0.75rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .error {
+    border: 2px solid #ff6565;
+  }
+  .error-message {
+    color: #ff6565;
+    // padding: 0.5em 0.2em;
+    height: 1em;
+    position: absolute;
+    font-size: 0.8em;
+  }
+}

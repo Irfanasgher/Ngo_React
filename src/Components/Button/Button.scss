@@ -1,0 +1,31 @@
+#button {
+	width: 130px;
+	.arrow-button {
+		background-color: #000;
+		color: #fff;
+		border-radius: 8px;
+		height: 42px;
+		// width: 140px;
+		display: flex;
+		padding: 0px 0px;
+		padding-left: 10px;
+		align-items: center;
+		border: 1px solid #000;
+
+		.anticon svg {
+			margin-left: 60px;
+		}
+	}
+	// [ant-click-animating-without-extra-node='true']::after,
+	// .ant-click-animating-node {
+	// 	position: absolute;
+	// 	top: 12;
+	// 	// right: 10px;
+	// 	// bottom: 12px;
+	// 	left: 65px;
+	// 	display: block;
+	// 	border-radius: inherit;
+	// 	box-shadow: none;
+	// 	opacity: 0.2;
+	// }
+}

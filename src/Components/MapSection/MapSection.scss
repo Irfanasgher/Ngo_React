@@ -1,0 +1,16 @@
+#map-section {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+
+	.logo-image {
+		position: absolute;
+		top: 60px;
+		left: 70px;
+	}
+
+	.section-image {
+		height: 100%;
+		width: 100%;
+	}
+}

@@ -1,0 +1,54 @@
+#monthlyOneTime {
+  .choose-amount {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .ant-radio-group {
+    height: 50px;
+  }
+  .ant-radio-group-solid
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    border: 2px solid #5b5c5d;
+    color: #5b5c5d;
+  }
+  .ant-radio-button-wrapper {
+    text-align: center;
+    color: #79848d;
+    font-weight: 600;
+    font-size: 20px;
+    background: #fff;
+    border: 2px solid #edf2f6;
+    height: 100%;
+    // width: 185px;
+    padding: 7px 50px;
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+  .currency {
+    .ant-radio-button-wrapper {
+      padding: 8px 20px;
+    }
+  }
+  .ant-radio-button-wrapper:not(:first-child)::before {
+    width: 0px;
+  }
+  .inputRadio {
+    padding: 0px !important;
+  }
+  .customInput {
+    border: none !important;
+    margin-top: 6px;
+    padding: 8px 20px;
+    height: 80%;
+    width: 100%;
+  }
+  .ant-input:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,40 @@
+.project-title-card {
+	position: relative;
+	width: 265px;
+	height: 130px;
+	// top: 20px;
+	border-radius: 11px;
+	overflow: hidden;
+	// filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+	box-shadow: (0px 2px 4px rgba(0, 0, 0, 0.5));
+
+	.title1 {
+		position: absolute;
+		// height: 60px;
+		top: calc(50% - 30px / 2 - 12.43px);
+		left: 10px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 20px;
+		color: #ffffff;
+	}
+}
+
+@media (max-width: 768px) {
+	.project-title-card {
+		width: 265px !important;
+	}
+}
+
+@media (min-width: 1024px) {
+	.project-title-card {
+		width: 230px !important;
+	}
+}
+@media (min-width: 1440px) {
+	.project-title-card {
+		width: 265px !important;
+	}
+}

@@ -1,0 +1,36 @@
+#progress {
+	.arrow-heading {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 22px;
+		color: #727272;
+		margin-bottom: 0;
+		cursor: pointer;
+	}
+	.anticon svg {
+		display: inline-block;
+		color: #727272;
+		font-size: 10px;
+		margin-bottom: 1px;
+		margin-right: 1px;
+	}
+	.ant-progress-show-info .ant-progress-outer {
+		margin-right: 0px !important;
+		padding-right: 0px;
+	}
+	.ant-progress-inner {
+		background-color: #c9c9c9;
+		border-radius: 0px;
+	}
+	.ant-progress-success-bg,
+	.ant-progress-bg {
+		background-color: #626262;
+		border-radius: 0px;
+	}
+	.ant-progress-text {
+		// visibility: hidden;
+		display: none;
+	}
+}
